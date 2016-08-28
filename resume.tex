@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sirjan Kafle's Resume
+
+% Template Credit:
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{format}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Sirjan}{Kafle}{ \urlstyle{same}\url{http://sirjankafle.me} \\
+\href{mailto:sxkafle12@gmail.com}{sxkafle12@gmail.com} | 972-900-2931
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection[University of California Berkeley]{\texorpdfstring{University of \\ California Berkeley}{University of California Berkeley}}
+\descript{Electrical Engineering and Computer Science}
+\location{Expected May 2018 | Berkeley, CA}
+College of Engineering \\
+Dean's Honors\\
+\location{ Cum. GPA: 4.0 / 4.0 \\
+Major GPA: 4.0 / 4.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/SirjanK}{\custombold{SirjanK}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/sirjankafle}{\custombold{sirjankafle}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Computer Science}
+CS189 - Machine Learning \\
+CS170 - Efficient Algorithms \\
+CS186 - Database Systems \\
+CS61B - Data Structures \\
+CS70 - Discrete Math and Probability Theory \\
+CS61A - Structure and Intrepretation of Computer Programs
+\sectionsep
+
+\subsection{Electrical Engineering}
+EE16B - Designing Information Devices and Systems 2 \\
+EE16A - Designing Information Devices and Systems 1 \\
+
+\subsection{Mathematics}
+Math53 - Multivariable Calculus \\
+Math54 - Linear Algebra and Differential Equations
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Programming}
+\location{Languages}
+Java \textbullet{}   Python \textbullet{} JavaScript \textbullet{} Ruby \textbullet{}
+SQLite \\
+\location{Tools/Platforms}
+Android \textbullet{} Raspberry Pi \textbullet{} Flask \textbullet{} Firebase \textbullet{} Bash Scripting \\
+\location{Other}
+Git \textbullet{} UNIX \textbullet{} LaTeX
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{HERE}
+\descript{| Highly Autonomous Driving Software Intern}
+\location{June 2016 – Current | Berkeley, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Built an Android Surface Application to communicate with various pieces of hardware using the Robot
+Operating System Java library.
+\item Facilitated data collection for creating Maps to aid Autonomous Driving efforts.
+\item Worked under the Agile system with daily standups, frequently showcasing features personally implemented to stakeholders.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Mobile Developers of Berkeley}
+\descript{| Senior Android Developer}
+\location{August 2015 - Current | Berkeley, CA}
+\begin{tightemize}
+\item Guided new teams in the Mobile Developers club of Berkeley club with Android development, from the design phase
+to release phase.
+\item Writing new Android Platform tools for club use and open source use.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{EE16A Course Staff}
+\descript{| Reader/Tutor/Lab Assistant}
+\location{January 2016 - May 2016 | Berkeley, CA}
+\begin{tightemize}
+\item Aided Students for Labs and HW while also grading assignments.
+\item Labs such as Image Processing and Locationing with Sound Waves included programming assignments in Python, which required frequent usage of the NumPy Library.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{LocServ}
+\location{Raspberry Pi Application in Python}
+\begin{tightemize}
+\item Wrote a Local Flask Server hosted using Ngrok as a Webhook for the Twilio API to send and receive terminal commands via SMS messages.
+\item Ran the commands synchronously on the Raspberry Pi (although compatible with other Linux machines) and sent output back to user.
+\item Scripted Python and Bash commands in order to generate a seamless method for setting up the Server and configuring the webhook.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Qlic Android Application}
+\location{Social Media Transmission App}
+\begin{tightemize}
+\item Designed and developed an Android Application dealing with sharing information with surrounding groups. 
+\item Used the Google Nearby API for transferring string payloads and dealt with custom serialization and deserialization.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{YackRank}
+\location{Visualize YikYak posts for Colleges around the Country}
+\begin{tightemize}
+\item Developed a web app using Flask and Python to analyze Yik Yak posts from colleges across the U.S.
+\item Displayed various information such as top post, most frequent word (after filtering out articles and common words),
+and results of a natural language library to detect average reading level on a Google Map view.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Concentraid Android Application}
+\location{Student Study Aid App}
+\begin{tightemize}
+\item Engineered an Android Application for breaking up study time based on the Pomodoro Effect.
+\item Used open source libraries dealing with various specialized Views and adopted a system of Callbacks for managing tasks.
+\end{tightemize}
+\end{minipage} 
+\end{document}  \documentclass[]{article}
